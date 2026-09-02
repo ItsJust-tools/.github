@@ -19,6 +19,10 @@ Each tool does one thing well — and nothing else. No signups, no accounts, no 
 | **Cron Builder** | Build cron expressions visually | [cron.itsjust.tools](https://cron.itsjust.tools) |
 | **Time Zone Converter** | Compare times across time zones | [timezone-converter.itsjust.tools](https://timezone-converter.itsjust.tools) |
 | **JSON Formatter** | Format, validate, explore JSON | [json-formatter.itsjust.tools](https://json-formatter.itsjust.tools) |
+| **SQL Formatter** | Format, beautify, and lint SQL queries (MySQL, PostgreSQL, SQLite, BigQuery) | [sql-formatter.itsjust.tools](https://sql-formatter.itsjust.tools) |
+| **Config Converter** | Convert between YAML, JSON, and TOML instantly | [config-converter.itsjust.tools](https://config-converter.itsjust.tools) |
+| **Diff Viewer** | Compare text differences side-by-side | [diff-viewer.itsjust.tools](https://diff-viewer.itsjust.tools) |
+| **Text Case Converter** | Convert text between 16 case modes | [text-case-converter.itsjust.tools](https://text-case-converter.itsjust.tools) |
 | **SVG Editor** | Edit SVGs with live preview | [svg-editor.itsjust.tools](https://svg-editor.itsjust.tools) |
 | **CSS Filter Visualizer** | Visualize CSS filter chains | [css-filter-visualizer.itsjust.tools](https://css-filter-visualizer.itsjust.tools) |
 | **Data URI Builder** | Build data URIs from files | [data-uri-builder.itsjust.tools](https://data-uri-builder.itsjust.tools) |
@@ -27,6 +31,7 @@ Each tool does one thing well — and nothing else. No signups, no accounts, no 
 | **Gitignore Generator** | Generate .gitignore files | [gitignore-generator.itsjust.tools](https://gitignore-generator.itsjust.tools) |
 | **Vision Deficiency Sim** | Simulate different vision types | [vision-deficiency-simulator.itsjust.tools](https://vision-deficiency-simulator.itsjust.tools) |
 | **System Config Builder** | Build system config files | [system-config-builder.itsjust.tools](https://system-config-builder.itsjust.tools) |
+| **systemd Unit Builder** | Build, edit, and export systemd unit files (services, timers, sockets) | [systemd-builder.itsjust.tools](https://systemd-builder.itsjust.tools) |
 | **Landing** | Org landing page | [itsjust.tools](https://itsjust.tools) |
 
 ## ✨ Philosophy
