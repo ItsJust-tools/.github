@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate repo contents
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+        continue-on-error: true
+
+      - name: Run lint
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Run tests
+        run: npm test
+        continue-on-error: true
+
+      - name: Run build
+        run: npm run build
+        continue-on-error: true
+
+      - name: Verify org profile README exists
+        run: |
+          test -f profile/README.md && echo "✅ profile/README.md present" || { echo "❌ profile/README.md missing"; exit 1; }
