@@ -1,10 +1,75 @@
+<style>
+  /* ===== ItsJust org profile — responsive design =====
+     Mobile-first breakpoints so the profile renders cleanly
+     on phones, tablets, and desktops. */
+  .itsjust-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .itsjust-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .itsjust-wrap th,
+  .itsjust-wrap td {
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+  }
+  .itsjust-wrap td a {
+    word-break: break-all;
+  }
+  .itsjust-tagline {
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+  .itsjust-section {
+    margin: 1.5em 0;
+  }
+
+  /* Small phones */
+  @media (max-width: 480px) {
+    .itsjust-wrap th,
+    .itsjust-wrap td {
+      padding: 6px 8px;
+      font-size: 0.9em;
+    }
+    .itsjust-tagline {
+      font-size: 1em;
+    }
+  }
+
+  /* Tablets */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .itsjust-wrap th,
+    .itsjust-wrap td {
+      padding: 7px 10px;
+    }
+  }
+
+  /* Large screens: keep the table readable, no horizontal scroll */
+  @media (min-width: 769px) {
+    .itsjust-wrap {
+      overflow-x: visible;
+    }
+  }
+</style>
+
 # 🛠️ ItsJust
+
+<div class="itsjust-tagline">
 
 **Small, focused, single-purpose web tools. No frameworks, no bloat.**
 
 Each tool does one thing well — and nothing else. No signups, no accounts, no tracking, no paywalls. Just tools that work.
 
+</div>
+
 ## 🧰 All Tools
+
+<div class="itsjust-wrap">
 
 | Tool | What it does | Live |
 | ---- | ------------ | ---- |
@@ -28,6 +93,8 @@ Each tool does one thing well — and nothing else. No signups, no accounts, no 
 | **Vision Deficiency Sim** | Simulate different vision types | [vision-deficiency-simulator.itsjust.tools](https://vision-deficiency-simulator.itsjust.tools) |
 | **System Config Builder** | Build system config files | [system-config-builder.itsjust.tools](https://system-config-builder.itsjust.tools) |
 | **Landing** | Org landing page | [itsjust.tools](https://itsjust.tools) |
+
+</div>
 
 ## ✨ Philosophy
 
