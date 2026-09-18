@@ -2,6 +2,10 @@
 
 **Small, focused, single-purpose web tools. No frameworks, no bloat.**
 
+[![CI](https://github.com/ItsJust-tools/.github/workflows/ci.yml/badge.svg)](https://github.com/ItsJust-tools/.github/actions)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Site](https://img.shields.io/badge/Live-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white)](https://itsjust.tools)
+
 Each tool does one thing well — and nothing else. No signups, no accounts, no tracking, no paywalls. Just tools that work.
 
 ## 🧰 All Tools
