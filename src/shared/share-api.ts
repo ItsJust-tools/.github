@@ -19,7 +19,7 @@
 export async function shareFile(file: File, options?: ShareOptions): Promise<string> {
   try {
     // Navigate to the share dialog
-    const url = await navigator.share({ file });
+    await navigator.share({ files: [file] });
 
     // The share dialog is asynchronous - we need to wait for the result
     // In a real implementation, this would involve listening to the share dialog callback
@@ -61,8 +61,7 @@ export async function shareFileWithErrorHandling(
 ): Promise<string> {
   try {
     // Attempt to share the file
-    const result = await navigator.share({ file });
-    return result;
+    await navigator.share({ files: [file] });
   } catch (error) {
     // Specifically handle AbortError (user cancelled)
     // Browsers throw a DOMException with name 'AbortError' when the user dismisses
